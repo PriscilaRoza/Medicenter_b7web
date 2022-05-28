@@ -163,3 +163,16 @@ h2 {
     margin-top: 10px;
 
 }
+#departaments{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.departament{
+    width: 140px;
+    height: 140px;
+    background-color: #39aae1;
+    margin: 12px;
+}
