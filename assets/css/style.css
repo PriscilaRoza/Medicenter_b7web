@@ -176,3 +176,24 @@ h2 {
     background-color: #39aae1;
     margin: 12px;
 }
+.appoint_text{
+    border-bottom:1px solid #727272;
+    color: #666;
+}
+.appoint_data{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #727272;
+}
+.appoint_data img{
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+}
+.appoint_data p{
+    color: #666;
+}
+.appoint_data strong {
+    color: #000;
+}
