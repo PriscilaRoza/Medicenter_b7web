@@ -190,7 +190,7 @@ h2 {
     width: 140px;
     height: 140px;
     background-color: #39aae1;
-    margin: 12px;
+    margin: 10px;
 }
 
 .appoint_text {
@@ -405,8 +405,21 @@ h3 {
     height: 3px;
     background-color: #39aae1;
 }
+/* @media (max-width:983px){
+    .departament{
+        width: 120px;
+        height: 120px;
+    }
+} */
+@media  (max-width: 956px) {
+    .departament{
+        width: 200px;
+        height: 200px;
+        padding: 50px;
+    }
+}
 
-@media(max-width:600px) {
+@media(max-width:600px){
 
     .banner_headline {
         padding: 20px;
@@ -443,6 +456,8 @@ h3 {
         margin: 7px;
         justify-content: space-around;
         padding: 3px;
+        width: 120px;
+        height: 120px;
     }
 
     .footer_menu,
